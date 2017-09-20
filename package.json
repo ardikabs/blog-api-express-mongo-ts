@@ -1,0 +1,31 @@
+{
+  "name": "blog-api-express-mongo-ts",
+  "version": "0.0.0",
+  "description": "Blog API Demo using Express Mongoo and written with typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./build/server.js"
+  },
+  "author": "ardikabs",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "helmet": "^3.8.1",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2",
+    "typescript": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.5",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/cors": "^2.8.1",
+    "@types/helmet": "0.0.36",
+    "@types/mongoose": "^4.7.21",
+    "@types/morgan": "^1.7.33",
+    "@types/node": "^8.0.28",
+    "nodemon": "^1.12.1"
+  }
+}
